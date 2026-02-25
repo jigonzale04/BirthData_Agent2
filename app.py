@@ -183,7 +183,7 @@ if user_input:
             filtered.groupby("state_of_residence")["births"]
             .sum()
             .sort_values(ascending=False)
-            .head(10)
+            .head(55)
             .to_dict()
         )
 
