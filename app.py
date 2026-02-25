@@ -1,3 +1,10 @@
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+import requests
+import json
+import re
+
 st.markdown("---")
 st.header("AI Data Analyst")
 
